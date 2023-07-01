@@ -1,0 +1,6 @@
+Tiny neural network
+
+This is a small neural network development project. My first practice experience with neural networks.
+The project is implemented based on this article https://iamtrask.github.io/2015/07/12/basic-python-network/.
+
+A detailed description of the network can be found in the code.
