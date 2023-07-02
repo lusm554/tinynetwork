@@ -2,5 +2,19 @@ Tiny neural network.
 
 This is a small neural network development project. My first practice experience with neural networks.
 The project is implemented based on this article https://iamtrask.github.io/2015/07/12/basic-python-network/.
+ 
+Inputs Output
+0 0 1  0
+1 1 1  1
+1 0 1  1
+0 1 1  0
+First network, part 1, trained with backpropagation, which is attempting to use input to predict output. It trying to predcit the output column with 3 input columns. So, to solve this problem we simply measuring statistics between input and output values. After measuring we would see that the first column in input is perfectly correlated with the output.
 
-A detailed description of the network can be found in the code.
+Inputs  Output
+0 0 1   0
+0 1 1   1
+1 0 1   1
+1 1 1   0
+Second network, part 2, similar to previous part, but with some changes. We're trying to predict an output column given that neither of the columns have any correlation to the output. So, the pattern is if either column 1 or 2 are a 1 (but not both) then the output is a 1. We using nonlinear pattern because there isn't a direct one-to-one relationship between the input and output. Instead, there is a one-to-one relationship between a combination of inputs, namely columns 1 and 2.
+
+A detailed description of the networks can be found in the code.
